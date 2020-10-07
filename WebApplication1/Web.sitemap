@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+  <siteMapNode title="Home" url="Home.aspx">
+  <siteMapNode title="Logout" url="Logout.aspx" />
+
+      <siteMapNode url="Admin/MemberList.aspx" title="Member List" roles="Admin"/>
+    <siteMapNode url="Admin/UserRegisteredReport.aspx" title="View Report" roles="Admin"/>
+    <siteMapNode url="Admin/Email.aspx" title="Email" roles="Admin"/>
+      <siteMapNode url="Admin/AddNotification.aspx" title="Send Notification" roles="Admin"/>
+    
+
+      <siteMapNode url="Member/record.aspx" title=" Add Record" imageUrl="~/img/logo1.png" width="55px" height="55px"  roles="Member"/>
+      <siteMapNode url="Member/AllRecord.aspx" title="Expense History" roles="Member"/>
+       <siteMapNode url="Member/ViewReport.aspx" title="View Report" roles="Member"/>
+     <siteMapNode url="Member/Notification.aspx" title="Notification" roles="Member"/>
+
+   
+
+  </siteMapNode>
+    
+</siteMap>

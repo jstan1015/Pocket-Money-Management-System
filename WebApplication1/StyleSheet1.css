@@ -1,0 +1,33 @@
+﻿body, table, input, select {
+    font: 11pt Calibri;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 h2 {
+    margin: 0px 0px 12px 0px;
+}
+
+#header {
+    padding: 12px;
+    border-bottom: 1px dashed #ccc;
+}
+
+#content {
+    padding: 10px;
+    min-height: 400px;
+}
+
+#footer {
+    padding: 10px;
+    border-bottom: 1px dashed #ccc;
+}
+
+body {
+    /*background-image: url("../image/background1.jpg");*/
+    background-image: url('img/piggy-bank-saving.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
